@@ -3,9 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
+    <title>Document</title>
+    <style>
+        .body{
+            background-color: rgba(128, 128, 128, 0.652);
+            height: 380px;
+            width: 300px;
+            border: solid black 2px;
+            border-radius: 90px 90px 0px 0px;
+            margin: 10px auto;
+            padding: 20px;
+        }
+        .screen
+        {
+            font-size: 22px;
+            text-align: right;
+            margin: 15px auto;
+            padding: 15px;
+            display: block;
+            background-color: #788e7d;
+            border-radius: 30px 30px 0px 0px ;
+            border: black 2px solid;
+            
+        }
+        .cal-btn{
+           margin: 10px;
+           display: flex;
+           flex-wrap: wrap;
+           height: 30px;
+        
+            
+        }
+        .btn{
+            height: 35px;
+            width: 32px;
+            text-align: center;
+            font-size: large;
+            margin: 10px;
+            padding: 2px;
+            font: bold;
+            border: solid black 2px;
+            border-radius: 2px;
+            cursor:pointer ;
+        }
+        .btn:hover{
+            box-shadow: 0px 0px 6px 3px whitesmoke;
+        }
+
+        .btn-t{
+            text-align: center;
+            color: white;
+            background-color: rgb(65, 63, 63);
+            font-size: small;
+            border: solid black 1px;
+            border-radius: 20px 0px 20px 0px;
+            margin: 8px;
+            padding: 5px;
+           
+        }
+        .index{
+            background-color: red;
+            color: white;
+            margin: 8px;
+            padding: 5px;
+            border-radius: 100%;
+            
+        }
+        .button{
+            height: 35px;
+            width: 50px;
+        }
+        .button:hover{
+            background-color:rgb(65, 63, 63) ;
+            height: 35px;
+            width: 80px;
+            transition: 2s;
+        }
+    </style>
 </head>
 <body>
+    <div class="body">
+    <input type="text" value="0" class="screen">
+
+    <button class="btn-t">BLAND INSTRUMENT</button>
+    <button class="index">ON</button>
+
+    <div class="cal-btn">
+        <div class="cal-btn">
+            <button class="btn">AC</button>
+            <button class="btn">7</button>
+            <button class="btn">4</button>
+            <button class="btn">1</button>
+            <button class="btn">0</button>
+  
+            <button class="btn">M+</button>
+            <button class="btn">8</button>
+            <button class="btn">5</button>
+            <button class="btn">2</button>
+            <button class="btn">.</button>
+  
+            <button class="btn">/</button>
+            <button class="btn">9</button>
+            <button class="btn">6</button>
+            <button class="btn">3</button>
+            <button class="btn">%</button>
+  
+            <button class="btn">X</button>
+            <button class="btn">-</button>
+            <button class="btn">+</button>
+            <button class="btn  button">=</button>
+    </div>
     
 </body>
 </html>
